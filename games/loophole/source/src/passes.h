@@ -1,0 +1,14 @@
+#ifndef LOOPHOLE_PASSES_H
+#define LOOPHOLE_PASSES_H
+
+enum {
+    CONTACT, HANDS_OFF, THREE, BACK, HOLD, MIRROR, DROP, TIMER, RETREAT, CYCLE,
+    WIND, KNOCK, UNDERSIDE, MOON, FERRY, BUDGET, ONE, INVERT, TRAP, ILLUSION,
+    DRAW, WEIGHT, FAST, SKID, CARRY, SILENCE, AUTO, LATE, WAKE, PUSH,
+    POGO, CURSOR, GAP, WATCH, FREEZE, LIFT, RIDE, FAINT, DANCE, PICTURE,
+    PASSES
+};
+
+struct PassText { const char *name, *clue, *hint; };
+extern const struct PassText pass_text[PASSES];
+#endif

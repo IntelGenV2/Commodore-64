@@ -1,0 +1,6 @@
+/build/
+/release/
+__pycache__/
+*.o
+/src/*.sym
+/assets/port/

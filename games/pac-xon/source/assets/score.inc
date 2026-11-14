@@ -1,0 +1,2 @@
+cue_lo: .byte 0,<(score+0),<(score+13),<(score+22),<(score+35),<(score+52),<(score+65),<(score+70),<(score+79),<(score+92),<(score+101),<(score+114),<(score+119),<(score+119),<(score+132),<(score+141),<(score+150)
+cue_hi: .byte 0,>(score+0),>(score+13),>(score+22),>(score+35),>(score+52),>(score+65),>(score+70),>(score+79),>(score+92),>(score+101),>(score+114),>(score+119),>(score+119),>(score+132),>(score+141),>(score+150)

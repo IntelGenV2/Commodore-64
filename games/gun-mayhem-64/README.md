@@ -8,3 +8,5 @@ Mount the disk image in drive 8, then enter the following commands.
 LOAD"*",8,1
 RUN
 ~~~
+
+[Browse the source and build instructions](source/)
